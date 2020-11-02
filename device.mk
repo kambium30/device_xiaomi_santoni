@@ -502,7 +502,4 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     libnl
 
-# Bloatware
-PRODUCT_PACKAGES += \
-    RemovePackages
 
