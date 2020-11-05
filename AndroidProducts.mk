@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_santoni.mk
+    $(LOCAL_DIR)/aosip_santoni.mk
 
 COMMON_LUNCH_CHOICES := \
-    carbon_santoni-userdebug \
-    carbon_santoni-user \
-    carbon_santoni-eng
+    aosip_santoni-userdebug \
+    aosip_santoni-user \
+    aosip_santoni-eng

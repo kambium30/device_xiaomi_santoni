@@ -17,17 +17,14 @@
 $(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := santoni
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4
-PRODUCT_NAME := lineage_santoni
+PRODUCT_NAME := aosip_santoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-
-# Gapps
-CURRENT_BUILD_TYPE := nogapps
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 720
