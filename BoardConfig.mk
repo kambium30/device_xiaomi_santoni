@@ -47,7 +47,7 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.
 ifeq ($(TARGET_KERNEL_VERSION), 4.9)
     BOARD_KERNEL_CMDLINE := androidboot.usbconfigfs=true
 endif
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+#BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
@@ -245,7 +245,7 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 
 # Vendor Security patch level
-VENDOR_SECURITY_PATCH := 2020-10-05
+VENDOR_SECURITY_PATCH := 2020-12-05
 
 # Wi-Fi
 BOARD_HAS_QCOM_WLAN := true
