@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_santoni.mk
+    $(LOCAL_DIR)/lineage_santoni.mk
 
 COMMON_LUNCH_CHOICES := \
-    carbon_santoni-userdebug \
-    carbon_santoni-user \
-    carbon_santoni-eng
+    lineage_santoni-userdebug \
+    lineage_santoni-user \
+    lineage_santoni-eng
